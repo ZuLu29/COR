@@ -12,6 +12,10 @@ body {
     margin: 0 auto;
 }
 
+.container2{
+    border: 1px solid black;
+}
+
 .head {
     display: flex;
     justify-content: center;
@@ -23,17 +27,16 @@ img{
     height: 80px;
 }
 
-.no-margin{
-    margin-left: 30px;
-}
+
 
 .head2{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 .head2 h2{
     text-transform: uppercase;
-    letter-spacing: 5px;
+    
 }
 
 .red-text{
@@ -46,13 +49,34 @@ span {
 
 .sgi{
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     margin: 0;
     text-transform: uppercase;
+    background-color: skyblue;
 }
-table {
+
+.sgitable table{
     width: 100%;
-    border: 1px solid black;
-    border-top: none;
 }
+
+.stretch{
+    letter-spacing: 20px;
+    padding-left: 32.5%;
+    font-weight: bold;
+    border-top: 1px solid black;
+    background-color: skyblue;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tr1{
+    background-color: skyblue;
+    border-bottom: 1px solid black;
+}
+
+
+
 
