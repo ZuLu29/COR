@@ -7,10 +7,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 .container{
-    border: 2px solid blue;
-    width: 800px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .head {
@@ -40,3 +39,20 @@ img{
 .red-text{
     color: red;
 }
+
+span {
+    text-transform: uppercase;
+}
+
+.sgi{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0;
+    text-transform: uppercase;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-top: none;
+}
+
