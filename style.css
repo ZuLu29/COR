@@ -27,12 +27,20 @@ img{
     height: 80px;
 }
 
+.margin-left{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 
+}
 
 .head2{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    letter-spacing: 15px;
 }
 .head2 h2{
     text-transform: uppercase;
@@ -88,6 +96,7 @@ table{
 .container3{
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 .assessed-fees{
@@ -100,11 +109,16 @@ table{
     background-color: skyblue;
 }
 
-.tr2{
+.assessed-fees h4{
+    text-align: center;
+    border-bottom: 1px solid black;
     background-color: skyblue;
+    letter-spacing: 8px;
 }
 
-
-
+.margin-top{
+    margin-top: 20px;
+    margin-left: 10px;
+}
 
 
