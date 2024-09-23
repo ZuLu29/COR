@@ -77,6 +77,25 @@ table{
     border-bottom: 1px solid black;
 }
 
+.td-end{
+    text-align: right;
+    padding-right: 10px;
+}
+.tr-border-bottom{
+    border-bottom: 2px solid black;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.assessed-fees{
+    border: 1px solid black;
+    width: 50%;
+}
+
+
 
 
 
