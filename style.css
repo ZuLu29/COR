@@ -137,3 +137,14 @@ table{
     border: 1px solid black;
 }
 
+.rules-on-refund{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rules-on-refund h3{
+    margin-bottom: 20px;
+}
+.rof{
+    margin-top: 30px;
+}
