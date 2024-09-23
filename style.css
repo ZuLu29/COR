@@ -10,6 +10,7 @@ body {
 .container{
     width: 90%;
     margin: 0 auto;
+    height: 1000px;
 }
 
 .container2{
@@ -147,4 +148,17 @@ table{
 }
 .rof{
     margin-top: 30px;
+}
+.ab{
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+    margin-bottom: 200px;
+}
+
+footer{
+    background-color: skyblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
